@@ -48,7 +48,7 @@ def check_if_valid_data(df: pd.DataFrame) -> bool:
 def run_spotify_etl():
     DATABASE_LOCATION = "sqlite:///my_played_tracks.sqlite"
     USER_ID = "geperalta" # your Spotify username  
-    TOKEN = "BQDdEUKSkvVbtFS6YsofeimBgyoCku9V3QhxCTqP83hLtc339F7Cx8jaUXSeLNWxQ5pponuoGv3iCE21mVpzIy__WCTQFi_sf4aAESpOUU4LelydBmgn26Ofu0pugrNgUrm2koeXyirxR603cxsn8ZYKQLddeypxaz81bFK-jh1PV-NMfW5Z2L0"
+    TOKEN = "BQDHKq03hUKw-__ZFJz3-OEN3e_tnJrnyJizDk3xBZPhI61pxtQW88gh6wL4-6S27uq1mAB_nlfp442qNtv2n6cYcvMtNI9N07lW7snHiDLXpnXFQas9taKYV5YeseripTp80qZpOxtiwNN15P8v0eITn-KZwJkptu6NdMWDxIEENeyG9Xu09r0"
 
     # Spotify API TOKEN (expires every 60m)
     # Generate token here:  https://developer.spotify.com/console/get-recently-played/
